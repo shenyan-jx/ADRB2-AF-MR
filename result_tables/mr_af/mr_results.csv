@@ -1,0 +1,4 @@
+"id.exposure","id.outcome","outcome","exposure","method","nsnp","b","se","pval","OR","OR_lci","OR_uci"
+"eqtl-a-ENSG00000169252","finn-b-I9_AF","Atrial fibrillation and flutter || id:finn-b-I9_AF","ENSG00000169252 || id:eqtl-a-ENSG00000169252","Inverse variance weighted",3,-0.00638129207059981,0.226173263645229,0.97749133160508,0.993639025134001,0.637831658365581,1.54792961327635
+"eqtl-a-ENSG00000169252","finn-b-I9_AF","Atrial fibrillation and flutter || id:finn-b-I9_AF","ENSG00000169252 || id:eqtl-a-ENSG00000169252","Weighted median",3,0.073870368838797,0.0773329600025332,0.339463977311937,1.0766672268267,0.92523989165243,1.25287758102648
+"eqtl-a-ENSG00000169252","finn-b-I9_AF","Atrial fibrillation and flutter || id:finn-b-I9_AF","ENSG00000169252 || id:eqtl-a-ENSG00000169252","MR Egger",3,0.63286041869001,0.159605645664435,0.157274097339858,1.88298902028725,1.37717369670278,2.57458275525541

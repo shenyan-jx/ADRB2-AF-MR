@@ -1,0 +1,10 @@
+suppressMessages(library(TwoSampleMR))
+exp <- readRDS("exp_ADRB1.rds"); exp$F <- exp$beta.exposure^2/exp$se.exposure^2
+out <- extract_outcome_data(snps = exp$SNP, outcomes = "finn-b-I9_AF", proxies = FALSE)
+cat("STEP2 outcome rows =", ifelse(is.null(out),0,nrow(out)), "\n")
+print(out[, c("SNP","effect_allele.outcome","other_allele.outcome","beta.outcome","se.outcome","pval.outcome","eaf.outcome")])
+saveRDS(out, "mr_adrb1/outcome_AF.rds")
+dat <- harmonise_data(exp, out, action = 2)
+cat("STEP3 harmonised =", nrow(dat), " mr_keep =", sum(dat$mr_keep), "\n")
+print(dat[, c("SNP","beta.exposure","beta.outcome","palindromic","ambiguous","mr_keep")])
+saveRDS(dat, "mr_adrb1/dat_harmonised.rds")

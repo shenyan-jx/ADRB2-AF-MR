@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the associated article and this archive."
+title: "Analysis code and result tables for the ADRB2–AF drug-target Mendelian randomization study"
+authors:
+  - family-names: Sun
+    given-names: Gangyang
+    affiliation: "Nanhu District People's Hospital, Jiaxing, Zhejiang, China"
+  - family-names: Shen
+    given-names: Yan
+    affiliation: "Jiaxing Cadre Health Care Center, Jiaxing, Zhejiang, China"
+version: 1.0.0
+date-released: 2026-11-24
+license: MIT
+# Target journal: European Journal of Clinical Pharmacology (Springer); not yet submitted.
+# After the first GitHub Release, uncomment and fill in the two lines below:
+# doi: 10.5281/zenodo.XXXXXXX
+# repository-code: https://github.com/<github-username>/ADRB2-AF-MR
+preferred-citation:
+  type: article
+  title: "The β2-adrenoceptor as a causal pathway to atrial fibrillation: a drug-target Mendelian randomization study informing long-acting β2-agonist prescribing in COPD"
+  authors:
+    - family-names: Sun
+      given-names: Gangyang
+    - family-names: Shen
+      given-names: Yan
+  status: in-preparation
+  year: 2026
